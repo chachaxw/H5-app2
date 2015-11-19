@@ -1,0 +1,56 @@
+
+.pager{
+     height: 100%;
+     width:  100%;
+     max-width: 640px;
+     margin: 0 auto;
+     overflow: hidden;
+     color:  #fff;
+     position:relative;
+ }
+.swiper-slide{
+    height: 100%;
+    width:  100%;
+    max-width:640px;
+}
+
+/* page1 style */
+.page1{position:relative;background:#fcefe7 url(../images/1_bg.png) no-repeat 0 0 / 100% 100%;}
+.page1 .logo{position:absolute;top:0.3rem;left:0.3rem;z-index:2;width: 2.47rem;height: 0.69rem; background:url(../images/1_logo.png) no-repeat 0 0 / 100% auto;}
+.page1 .rainbow{position:absolute;z-index:1;width:100%;height:100%;background:url(../images/1_rainbow.png) no-repeat 0 0 / 100% 100%;}
+.page1 .title{position:absolute;top:2.07rem;right:0.2rem;z-index:3;width: 5.08rem; height: 3.4rem; background:url(../images/1_title.png) no-repeat 0 0 / 100% auto;}
+.page1 .envolope{position: absolute;top: 5.72rem;width: 6.4rem;height: 4.61rem;z-index: 0;background: url(../images/1_envolope.png) no-repeat 0 0 / 100% auto}
+.page1 .star{position: absolute;top: 4.4rem;left: 0.8rem;width: 4.98rem;height: 4.61rem;z-index: 3;background: url(../images/1_star.png) no-repeat 0 0 / 100% auto}
+
+/* page2 style */
+.page2{position:relative; background:#fff url(../images/2_bg.png) no-repeat center 0 / 100% auto;}
+.page2 .title{position: absolute;top: 1.56rem;left: 1.5rem;width: 3.47rem;height: 0.86rem;background: url(../images/2_title.png) no-repeat 0 0 / 100% auto;}
+.page2 .text{position: absolute;top: 2.89rem;left: 0.84rem;width: 4.67rem;height: 2.25rem;background: url(../images/2_text.png) no-repeat 0 0 / 100% auto;}
+.page2 .video{position: absolute;top: 5.7rem;left: 0.4rem;width: 5.6rem;height: 3.17rem;background: url(../images/2_video.png) no-repeat 0 0 / 100% auto;}
+.page2 .more{position: absolute;right: 0.4rem;bottom: 0.5rem;color: #1b1b1b;font-size: 0.18rem;}
+.page2 .more h1{display: inline-block;}
+
+/* page3 style */
+.page3{position:relative;background:#fcefe7;}
+.page3 .text{position: absolute;top: 0.7rem;left: 0.84rem;width: 4.37rem;height: 1.85rem;background: url(../images/3_text.png) no-repeat 0 0 / 100% auto;z-index: 2}
+.page3 .chat{position: absolute;top: 0;left: 0;width: 6.4rem;height: 4.31rem;background: url(../images/3_chat_bg.png) no-repeat 0 0 / 100% auto;}
+.page3 .table{position: absolute;bottom: 0;width: 6.4rem;height: 5.77rem;background: url(../images/3_table.png) no-repeat 0 0 / 100% auto;}
+
+/* page4 and page5 style */
+.page4, .page5{position:relative;background:#f7d0b6}
+.paper{position: absolute;top: 0.43rem;width: 100%;height: 9.08rem;background: url(../images/4_paper.png) no-repeat 0 0 / 100% auto}
+.info{position: absolute;top: 1.77rem;left: 0.6rem;width: 5.39rem;height: 6.27rem;background: url(../images/4_info.png) no-repeat 0 0 / 100% auto}
+.page5-info{top: 1.53rem;width: 5.24rem; height: 6.71rem;background: url(../images/5_info.png) no-repeat 0 0 /100% auto}
+.zhao{position: absolute;top:1.14rem;left: 4.3rem;width: 1.04rem;height: 1.04rem; background: url(../images/4_zhao.png) no-repeat 0 0 / 100% auto;}
+.button{position: absolute; top: 8.46rem; left: 50%;margin-left: -0.9rem; display: block;width: 1.8rem;height: 0.72rem;color: #ffffff;background: #ec681a;border-radius: 4px; font-size: 0.24rem;text-align: center;line-height: 0.72rem;}
+
+/* page6 style */
+.page6{position:relative;background:#ffffff}
+.page6 .benefit{position: absolute;top: 0;left: 0.51rem; width: 5.38rem;height: 3.25rem;background: url(../images/6_benefit.png) no-repeat 0 0 / 100% auto;}
+.page6 .mail{position: absolute;top: 4.01rem;left: 0.48rem;width: 5.44rem;height: 1.58rem;background: url(../images/6_mail.png) no-repeat 0 0 / 100% auto;}
+.page6 .location{position: absolute;top: 7.3rem;left: 50%;margin-left: -2.72rem; width: 5.44rem;height: 0.8rem;background: url(../images/6_address.png) no-repeat 0 0 / 100% auto}
+.page6 .building{position: absolute;bottom: 0; width: 6.4rem;height: 1.81rem;background: url(../images/6_building.png) no-repeat 0 0 / 100% auto;}
+.page6 .button{position: absolute;top: 6rem;left: 50%;margin-left: -1.45rem;width: 2.9rem;height: 0.76rem;}
+.page6 .phone{display: inline-block;width: 0.26rem;height: 0.32rem;margin-right: 0.2rem;background: url(../images/6_phone.png) no-repeat 0 0 / 100% auto;vertical-align:middle; }
+
+
